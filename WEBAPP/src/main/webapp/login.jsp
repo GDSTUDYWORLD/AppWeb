@@ -9,7 +9,7 @@
 <body>
 Login
 
-<form action="<%=request.getContextPath()%>/Controller"  method="get">
+<form action="<%=request.getContextPath()%>/Controller" method="get">
 	Full Name:  <input type="text" id="fname" name="name"><br>
 	Gender: <input type="radio" name="gender" value="male"> Male
 			<input type="radio" name="gender" value="female"> Female <br />
